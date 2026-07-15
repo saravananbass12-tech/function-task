@@ -1,0 +1,88 @@
+#python oops task
+
+class mobile:
+    def __init__(self,brand,color,price,model):
+        self.brand = brand
+        self.color = color
+        self.price = price
+        self.model = model
+    def power_on(self):
+       print("brand:",self.brand)
+       print("color:",self.color)
+       print("price:",self.price)
+       print("model:",self.model)
+m= mobile("vivo","red","4000","t4x")
+m.power_on()
+
+
+class Laptop:
+    def __init__(self, brand, processor, ram, price):
+        self.brand = brand
+        self.processor = processor
+        self.ram = ram
+        self.price = price
+
+    def start(self):
+        print("Brand:", self.brand)
+        print("Processor:", self.processor)
+        print("RAM:", self.ram)
+        print("Price:", self.price)
+        print("Laptop Started")
+
+l = Laptop("HP", "i5", "16GB", 60000)
+l.start()
+
+
+class Student:
+    def __init__(self, name, roll, department, mark):
+        self.name = name
+        self.roll = roll
+        self.department = department
+        self.mark = mark
+
+    def display(self):
+        print(self.name, self.roll, self.department, self.mark)
+
+s = Student("Rahul", 101, "CSE", 95)
+s.display()
+
+class Car:
+    def __init__(self, brand, model, color):
+        self.brand = brand
+        self.model = model
+        self.color = color
+
+    def drive(self):
+        print("Car is Driving")
+
+c = Car("BMW", "X5", "White")
+c.drive()
+
+class Book:
+    def __init__(self, title, author, price):
+        self.title = title
+        self.author = author
+        self.price = price
+
+    def read(self):
+        print("Reading Book")
+
+b = Book("Python", "Guido", 500)
+b.read()
+
+class Fan:
+    def __init__(self, brand, speed, color):
+        self.brand = brand
+        self.speed = speed
+        self.color = color
+
+    def rotate(self):
+        print("Brand:", self.brand)
+        print("Speed:", self.speed)
+        print("Color:", self.color)
+        print("Fan Rotating")
+
+f = Fan("Usha", 5, "White")
+f.rotate()
+
+
